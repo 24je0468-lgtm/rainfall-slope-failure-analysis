@@ -1,26 +1,31 @@
 # rainfall-slope-failure-analysis
-Rainfall-induced slope stability analysis using FLAC3D
+ Rainfall-Induced Slope Stability Analysis
 
-📖 Description
-Developed a numerical model to simulate rainfall infiltration and its impact on slope stability using FLAC3D
-Implemented custom FISH functions to model suction–saturation behavior and automate Factor of Safety (FOS) computation
-Applied strength reduction technique to evaluate progressive slope failure under varying hydraulic conditions
-Analyzed pore pressure evolution, saturation profiles, and failure mechanisms
-Visualized convergence history and stability trends under rainfall loading
+ Overview
+This project investigates the effect of rainfall infiltration on slope stability using numerical modeling in FLAC3D. The model captures transient seepage, pore pressure buildup, and progressive failure mechanisms.
 
-⚙️ Tools & Software
+ Key Features
+Custom FISH scripting for suction–saturation modeling
+Automated Factor of Safety (FOS) calculation using strength reduction
+Simulation of rainfall infiltration and hydraulic boundary conditions
+Monitoring of pore pressure, saturation, and displacement
+Convergence tracking for stability assessment
+
+ Methodology
+Geometry and mesh generation of slope
+Assignment of Mohr-Coulomb material model
+Application of rainfall as hydraulic boundary condition
+Simulation of transient infiltration
+Strength reduction to compute FOS
+Analysis of failure surface and instability
+
+ Results & Insights
+Rainfall significantly reduces slope stability
+Increase in pore water pressure triggers failure
+Critical slip surface evolves with saturation front
+FOS decreases progressively during rainfall
+
+ Technologies Used
 FLAC3D
 FISH scripting
-Civil 3D
-
-🔍 Methodology
-Created slope geometry and mesh
-Applied hydraulic boundary conditions
-Simulated rainfall infiltration
-Used strength reduction technique to calculate FOS
-Monitored saturation and pore pressure variation
-
-📊 Results
-Reduction in Factor of Safety with rainfall
-Increase in pore pressure leading to instability
-Critical failure surface identified
+Numerical modeling techniques
